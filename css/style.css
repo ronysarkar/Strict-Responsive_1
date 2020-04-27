@@ -1,0 +1,645 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+                    						/****************************
+                    							NavBar Section CSS Start
+                    						*****************************/
+.navbar_section{
+	background:#f6f9f9;
+	color: black;
+}
+
+.nav_option a{
+    font-size: 20px;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin: 0px 5px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lato','sans-serif'; 
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #15A4FA;
+}
+
+
+
+
+						/****************************
+							NavBar Section CSS End
+						*****************************/
+
+						/*****************************
+							** Banner Section Start  ** 
+						******************************/
+.banner_section{
+	background: url(../images/banner.png);
+	width: 100%;
+	height: 659px;
+	padding: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	 /* position: relative;*/
+}
+.banner_inner {
+    text-align: center;
+}
+
+.banner_inner h1 {
+    font-size: 107px;
+    font-weight: 700;
+    margin-top: 90px;
+    color: #fff;
+    font-family: 'Lato','sans-serif';
+}
+
+.banner_inner hr {
+    margin-top: 10px;
+    height: 1px;
+    background: #15a4fa;
+}
+
+.banner_inner p {
+    font-size: 19px;
+    color: #fff;
+    margin-top: 42px;
+}
+
+.banner_btn {
+    color: #fff;
+    margin-top: 54px;
+    font-size: 20px;
+    border: 1px solid #15a4fa;
+    padding: 10px 35px;
+    background: transparent;
+    border-radius: 3px;
+    transition: 1s;
+    font-family: 'Lato','sans-serif';
+}
+
+.arraw_img{
+	text-align: center;
+    margin-top: 100px;
+}
+						/****************************
+							** Banner Section End  ** 
+						*****************************/
+
+.typo_section{
+	text-align: center;
+	background: #f6f9f9; 
+}
+.typo_section h3 {
+    font-size: 37px;
+    margin-top: 73px;
+    color: #2d3950;
+    font-family: 'Lato','sans-serif';
+}
+
+.typo_section p {
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 21px;
+    color: #999999;
+    font-family: 'Lato','sans-serif';
+}
+.blank_space {
+    margin: 90px 0px;
+}
+
+                        /*******************************
+                            ** Featured Section Start  ** 
+                        *********************************/
+.featured_inner{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.featured_inner img{
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.featured_inner h5{
+    font-size: 20px;
+    margin: 8px 0px;
+    color: #2d3950;
+    font-family: 'Lato','sans-serif';
+}
+
+.featured_inner p{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 55px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Lato','sans-serif';
+}
+
+                        /*******************************
+                            ** Featured Section end  ** 
+                        *********************************/
+
+                        /*******************************
+                            ** Portfolio Section Start  ** 
+                        *********************************/
+.portfolio_section{
+    background: #f6f9f9;
+
+}
+
+.port_text{
+    text-align: center;
+}
+.port_text h1{
+    margin-top: 55px;
+    color: #2d3950;
+    font-family: 'Lato','sans-serif';
+}
+
+.port_text p{
+    font-size: 16px;
+    margin-bottom: 70px;
+    color: #999999;
+    font-family: 'Lato','sans-serif';
+}
+.portfolio_inner{
+
+}
+
+.portfolio_inner img {
+    margin: 9px 0px;
+}
+
+.port_b{
+    margin-bottom: 80px;
+}
+                        /*******************************
+                            ** Portfolio Section End  ** 
+                        *********************************/
+
+                        /*******************************
+                            ** Contact Section Start  ** 
+                        *********************************/
+
+.contact_area{
+    text-align: center;
+    font-family: 'Lato','sans-serif';
+    height: 632px;
+    background: url(../images/contact_bg.png) center top no-repeat;
+}
+
+.conhead h1{
+    margin-top: 70px;
+    color: #fff;
+}
+
+.conhead p{
+    font-size: 16px;
+    margin-bottom: 53px;
+    color: #999999;
+}
+
+.con_form{
+    margin-top: 20px;
+}
+
+.form-control {
+    display: block;
+    background-color: transparent;
+    border: 1px solid #CED4BE;
+}
+.form-group {
+    padding: 0px 88px;
+}
+.custom-checkbox{
+    text-align: left;
+    margin-left: 73px;
+    color: #999999;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    margin-top: 12px;
+    padding-left: 1.5rem;
+}
+
+.con_btn {
+    color: #fff;
+    border-color: #007bff;
+    margin-right: -12px;
+    padding: 8px 49px;
+    transition: 1s;
+}
+
+
+                        /*******************************
+                            ** Contact Section End  ** 
+                        *********************************/
+
+                        /*******************************
+                            ** Footer Section Start  ** 
+                        *********************************/
+
+.footer_section{
+    background: #f6f9f9;
+}
+
+
+.footer_inner p {
+    font-size: 15px;
+    color: #999;
+    margin-top: 33px;
+}
+.social_icons{
+    width: 100%;
+    text-align: right;
+}
+
+.social_icons ul{
+    margin-top: 19px;
+}
+.social_icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social_icons ul li a{
+}
+.social_icons ul li a i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #15A4FA;
+    border-radius: 0px;
+    background: #15A4FA;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 22px;
+    text-align: center;
+}   
+
+.social_icons ul li a i:hover{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #15A4FA;
+    border-radius: 0px;
+    background: #fff;
+    color: #15A4FA;
+    margin-right: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+                        /*******************************
+                            ** Footer Section End  ** 
+                        *********************************/
+
+.portfolio_inner{
+    position: relative;
+    width: 100%;
+}
+
+
+
+.imagePort {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.portfolio_inner:hover .overlay {
+  height: 100%;
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************
+   *****  RESPONSIVE *****
+*******************************/
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.banner_inner h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 55px;
+    color: #fff;
+    font-family: 'Lato','sans-serif';
+}
+
+.banner_inner hr {
+    margin-top: 2px;
+    height: 2px;
+    margin-left: 60px;
+    width: 60%;
+    background: #15a4fa;
+}
+.banner_inner p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+.banner_btn {
+    color: #fff;
+    margin-top: 25px;
+    font-size: 15px;
+    border: 1px solid #15a4fa;
+    padding: 6px 15px;
+    background: transparent;
+    border-radius: 3px;
+    transition: 1s;
+    font-family: 'Lato','sans-serif';
+}
+
+
+.banner_section {
+    background: url(../images/banner.png);
+    width: 100%;
+    height: 470px;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+
+.typo_section h3 {
+    font-size: 32px;
+    margin-top: 50px;
+    color: #2d3950;
+    font-family: 'Lato','sans-serif';
+}
+
+.typo_section p {
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 13px;
+    color: #999999;
+    font-family: 'Lato','sans-serif';
+}
+.featured_inner {
+    text-align: center;
+    margin-top: 30px;
+}
+.featured_inner h5 {
+    font-size: 20px;
+    /* margin: 1px 0px; */
+    color: #2d3950;
+    font-family: 'Lato','sans-serif';
+}
+.featured_inner p {
+    font-size: 13px;
+    margin-top: 13px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 55px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Lato','sans-serif';
+}
+.port_text h1 {
+    /* margin-top: 55px; */
+    font-size: 32px;
+    color: #2d3950;
+    font-family: 'Lato','sans-serif';
+}
+
+
+.portfolio_section {
+    background: #f6f9f9;
+    
+}
+.port_text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #999999;
+    font-family: 'Lato','sans-serif';
+}
+
+.portfolio_inner {
+    position: relative;
+    width: 100%;
+    margin-bottom: -3px;
+}
+.custom-control-label {
+    position: relative;
+    margin-left: 29px;
+    margin-bottom: 18px;
+    vertical-align: top;
+}
+.social_icons {
+    width: 100%;
+    margin-top: -62px;
+    text-align: right;
+    margin-left: -22px;
+}
+
+
+.social_icons ul li a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #15A4FA;
+    border-radius: 0px;
+    background: #15A4FA;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+}  
+
+
+.social_icons ul li a i:hover{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #15A4FA;
+    border-radius: 0px;
+    background: #fff;
+    color: #15A4FA;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.blank_space {
+    margin: 52px 0px;
+}
+
+
+.featured_inner img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
